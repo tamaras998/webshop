@@ -1,0 +1,127 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 209, 173);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color:seagreen;
+    color:black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-item {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .product-link {
+    text-decoration: none;
+    color: #333;
+    display: block;
+  }
+  
+  .product-container {
+    padding: 15px;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    font-weight:bolder;
+    margin: 10px 0;
+    text-align: center;
+
+  }
+  
+  .product-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    color: #b72d0b;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .cart {
+    background-color: rgb(81, 58, 58);
+    color: white;
+    padding: 10px;
+    border:darkslategrey;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .cart-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .cart-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    border: 0.5px solid #020202;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+  }
+  
+  .cart-item-details {
+    padding: 10px;
+  }
+  
+  .cart-item-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  .cart-item-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .cart-item-price {
+    font-size: 14px;
+    color: #94370c;
+  }
+
+  
+
+  
